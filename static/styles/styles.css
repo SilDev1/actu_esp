@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Navigation bar styles */
+.navBar-container {
+    display: flex; /* Make the container elements horizontal */
+    justify-content: start;
+    align-items: center; /* Vertically align items in the center */
+    padding: 10px 20px; /* Add some padding for spacing */
+    background-color: #ffffff; /* Light gray background */
+    box-shadow: 0 2px 2px #eeeeee;
+  }
+  
+  .navbar-logo {
+    text-decoration: none; 
+    margin-left: 300px;
+  }
+  
+  .navbar-logo img {
+    display: block; /* Make logo image behave like a block element */
+  }
+  
+  .navbar-nav {
+    list-style: none; /* Remove default bullet points from list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; 
+    margin-left: 40px;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    color: #333; 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    line-height: 18px;
+    font-weight: 500px;
+    padding: 5px 10px; 
+}
+
+.nav-link:hover {
+    background-color: #ddd; /* Light gray background on hover */
+    color: #000; /* Black text color on hover */
+    text-underline-offset: 8px;
+}
+  
+  /* Remove styling for the currently active link (optional) */
+.nav-link.active {
+    color: #000; /* Black text color for active link */
+    font-weight: bold; /* Bold font weight for active link */
+} 
+/* Body styles*/
+  
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+h1, h2, h3 {
+    color: #333;
+}
+h2 {
+    margin-top: 20px;
+}
+h3 {
+    margin-top: 10px;
+}
+.article {
+    margin-bottom: 20px;
+}
+.article a {
+    text-decoration: none;
+    color: #007bff;
+}
+.article a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+
+.footer-container{
+  background-color: #131313;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 50px 0;
+  /* border: 2px solid #fff; */
+}
+.footer2-container{
+  background-color: #131313;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: end;
+  padding-bottom: 50PX;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #d9d7d7;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 300px;
+  align-items: center;
+}
+
+.footer-link:hover{
+  color: #fff;
+}
+
+.footer-p{
+  text-align: end;
+}
